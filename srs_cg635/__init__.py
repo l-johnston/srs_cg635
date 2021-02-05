@@ -8,7 +8,7 @@ __all__ = ["CommChannel"]
 
 
 class CommChannel:
-    """Connect to an Anritsu power meter using VISA
+    """Connect to a Stanford Research Systems CG635 using GPIB
 
     Attributes
     ----------
