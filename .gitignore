@@ -1,0 +1,9 @@
+srs_docs/
+.pytest_cache/
+__pycache__/
+.vscode/
+build/
+dist/
+srs_cg635.egg-info/
+venv/
+tests/
