@@ -14,6 +14,7 @@ Python interface to the Stanford Research Systems CG635 Clock Generator
 >>> from srs_cg635 import CommChannel
 >>> with CommChannel(address=23) as cg:
 ...     cg.frequency = 10e6 # Hz
+...     cg.cmos_levels = "3.3 V"
 >>> 
 ```
 
